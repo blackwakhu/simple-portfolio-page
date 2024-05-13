@@ -25,6 +25,14 @@
             </ul>
         </nav>
     </header>
+    <script>
+    const toggleButton = document.getElementById('navbar-toggle');
+    const menu = document.querySelector('.navbar-links');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
   <div class="data-block">
     <div id="home">
       <h1>Home</h1>
@@ -42,6 +50,10 @@
      <h1>Career</h1>
    </div>
   </div>
+  <footer>
+    <div>&copy 2024 Derrick Shibero Wakhu; All rights reserved</div>
+  </footer>
   <script src="script.js"></script>
+  
 </body>
 </html>
