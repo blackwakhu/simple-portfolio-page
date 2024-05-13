@@ -1,13 +1,10 @@
-$( document ).ready(function() {
-    $("#redElement").click(function(){
-    $(this).css('color', 'red');
-    });
-    
-    $("#blueElement").click(function(){
-      $(this).css('color', 'blue');
-    });
-    
-    $("#greenElement").click(function(){
-      $(this).css('color', 'green');
-    });
-});
+$(document).ready(function(){
+  $("#homebtn").click(function(){
+    $("#home").slideDown(1000);
+    $("#product").hide();
+  })
+  $("#productbtn").click(function(){
+    $("#product").slideDown(1000);
+    $("#home").hide();
+  })
+})
