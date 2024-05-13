@@ -10,6 +10,7 @@
   position: fixed;
   top: 0;
 }
+
  .navbar-logo{
     font-size: 24px;
     font-weight: bold;
@@ -24,11 +25,13 @@
  .navbar-link{
   text-decoration: none;
   color: #fff;
-  color: navy;
+  <!--color: navy;-->
   transition: color 0.3s;
+  background-color: rgba(100, 100, 100, .0);
+  border: none;
  }
  .navbar-link:hover{
-  color: #f8f8f8;
+  color: blue;
  }
  #navbar-toggle{
   display: none;
@@ -55,6 +58,18 @@
   background-image: linear-gradient(to bottom, white, beige, lightblue, blue);
   width: 100%;
   height: 100%;
+  min-height: 450px;
+}
+
+.data-product > h1{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.data-product{
+  width: 33%;
+  border: inset;
+  margin: 5px;
 }
 
 footer{
