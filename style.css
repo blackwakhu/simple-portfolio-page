@@ -57,6 +57,9 @@
   height: 100%;
 }
 
+footer{
+  background-color: blue;
+}
 
 @media (max-width: 100px) {
   .navbar-links {
@@ -66,6 +69,9 @@
     top: 60px;
     left: 0;
     background-color: #333;
+    width: 100%;
+  }
+  .header{
     width: 100%;
   }
   .navbar-item {
